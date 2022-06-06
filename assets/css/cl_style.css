@@ -1,0 +1,1204 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}	
+input[type=text], input[type=password], input[type=email], input[type=tel], 
+input[type=date], input[type=month], input[type=week], input[type=time], 
+input[type=number], input[type=search], input[type=url], textarea {
+	color: #000000;
+}
+input:focus, textarea:focus, select:focus { 
+	background: transparent; 
+	border: none;
+}
+input:hover, textarea:hover, select:hover {
+	cursor: pointer !important;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: #999999;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #999999;
+}
+
+::placeholder {
+  color: #999999;
+}
+button:active, input[type=button]:active, input[type=submit]:active, button:focus, input[type=button]:focus, input[type=submit]:focus {
+	top: 0;
+}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    display: none;
+}
+.product-prescription-area {
+    padding: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.clearfix {
+    clear: both;
+}
+.fl-woocommerce-contact-lenses-module {
+    float: left;
+    width: 100%;
+}
+.custom-checkbox {
+    padding-bottom: 25px;
+}
+.custom-checkbox input {
+	display: none;
+}
+.custom-checkbox label {
+    position: relative;
+    padding-left: 35px;
+    margin: 0;
+    line-height: 24px;
+	font-size: 16px;
+    font-weight: 400;
+    color: #333333; 
+	cursor: pointer;
+}
+.custom-checkbox label::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ddd;
+    top: 50%;
+    transform: translateY(-50%);
+	background: #fff;
+}
+.custom-checkbox label::after {
+    content: "";
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+    top: 50%;
+    left: 4px;
+    height: 16px;
+    width: 16px;
+    background: url(../img/checkmark.png) no-repeat center !important;
+    background-size: 12px !important;
+    display: none;
+    transform: translateY(-50%);
+}
+.custom-checkbox input[type="checkbox"]:checked + label::after {
+	display: block;
+}
+
+.variations_form {
+    margin: 0 !important;
+}
+
+.datepicker-container {z-index: 99999 !important;} 	
+
+.woo-variation-swatches-stylesheet-enabled .woo-variation-raw-select, .woo-variation-swatches-stylesheet-enabled .woo-variation-raw-select+.select2 {
+    display: block !important;
+}
+/*First line of selector is for IE11*/
+.woo-variation-swatches-stylesheet-enabled.woo-variation-swatches-ie11 .variable-items-wrapper,
+.woo-variation-swatches-stylesheet-enabled .variable-items-wrapper {
+    display: none !important;
+}	
+ .opticians-details-wrap input[type="number"]{-moz-appearance: textfield;}
+/*========= Fixed Positioned CL Steps Overlay ==========*/
+#cl-steps-wrapper {
+    position: static;
+    background: #f7f7f7;
+    z-index: 9999;
+    display: none;
+    padding: 40px; 
+    max-width: 1200px;
+				 
+    margin: 25px auto 30px;
+    float: none;
+}
+#cl-steps-wrapper-inner {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+#cl-options-wrapper {
+    max-width: 66.5%;
+    width: 100%;
+    float: left;
+}
+/*
+#cl-steps-wrapper .close-section {	
+	max-width: 1160px;
+	padding-bottom: 0;
+	margin: 0 auto;
+}
+#cl-steps-wrapper .close-btn {
+	float: right;
+	cursor: pointer;
+	padding: 10px;
+}*/
+
+/*========== Selected Product Sidebar ==========*/
+#product-sidebar {
+    width: 100%;
+    max-width: 33.5%;
+    float: left;
+    padding-left: 26px;
+    padding-top: 60px;
+}
+.product-sidebar-inner {
+    background: #fff;
+    padding: 30px 24px 22px;
+    text-align: center;
+    border-radius: 3px;
+}
+.product-sidebar-inner .pro-name {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.product-sidebar-inner figure {
+    min-height: 120px;
+    padding-bottom: 10px;
+	line-height: 110px;
+}
+.product-sidebar-inner figure img {
+    max-width: 170px;
+}
+.product-sidebar-inner .selected-qty { 
+    font-size: 16px;
+    color: #666666;
+}
+.product-sidebar-inner hr {
+    margin: 6px 0 20px;
+	border-top: 1px solid #ddd;
+}
+.product-sidebar-inner .total-price {
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+}
+.product-sidebar-inner .total-price strong {
+	font-size: 18px;
+	font-weight: 700;
+	color: #000000;
+}
+
+/*========== Validation Error ===========*/
+.error {
+    float: left;
+    display: block;
+    margin-bottom: 0;
+    font-size: 11px;
+    color: #d70b0b;
+    padding: 3px 0px 0;
+    border-radius: 2px;
+    font-weight: 500;
+}
+.error.top {
+    width: 100%;
+    border: 1px solid #d70b0b;
+    padding: 7px 15px;
+    margin-bottom: 20px;
+    font-size: 12px;
+	background: #fff3f3; 
+}	
+#eye-selection .error.top {
+    margin-bottom: 0;
+    margin-top: 20px;
+}	
+.eyeerror {
+	float: left;
+    display: block;
+    color: #d70b0b;
+    border-radius: 2px;
+    font-weight: 500;
+	width: 100%;
+    border: 1px solid #d70b0b;
+    padding: 7px 15px;
+    font-size: 12px;
+	background: #fff3f3; 
+	margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.fixedloader {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+	display: none;
+}
+.fixedloader figure {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.colour-option {
+    margin-bottom: 30px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.colour-option .lg-custom-drop {
+	max-width: 335px;	
+}
+.colour-option .lg-custom-drop.single_val_attr {
+	max-width: 100%;	
+}
+
+/*========== Eye Selection First Step ============*/
+#eye-selection {
+    padding: 0 0 30px 0;
+}
+#eye-selection .qty-label { 
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 20px;
+}
+#eye-selection ul {
+    margin: 0 -10px;
+}
+#eye-selection li {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+#eye-selection li.disabled {
+	opacity: 0.7;
+}
+#eye-selection li.disabled .box5 {
+	pointer-events: none;
+}
+.stepper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.stepper button {
+    width: 49px;
+    height: 49px;
+    border: 1px solid #ddd;
+    border-radius: 3px 0 0 3px;
+    color: #666;
+	font-size: 0;
+    background: url(../img/minus.png) no-repeat center #fff;
+}
+.stepper button.increase {
+    border-radius: 0 3px 3px 0;
+	background: url(../img/plus.png) no-repeat center #fff;
+}
+.stepper button.disabled {
+	opacity: 0.5; 
+}
+.stepper button:hover {
+	//background: #f8f8f8;
+}
+.stepper .q-value {
+    flex: 1;
+    text-align: center;
+    line-height: 49px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 49px;
+    background: #fff;
+	font-size: 16px;
+    color: #000000;
+}
+
+/*========== Continue Button Section ============*/
+#continue-btn {
+    float: left;
+    width: 100%;
+}
+#continue-btn a {
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 59px;
+    line-height: 59px;
+}
+#continue-btn a:hover {
+	text-decoration: none;
+}
+
+/*========== Who is this Section ===========*/
+#patient-info {
+    padding: 0 0 30px;
+	display: none;
+}
+#patient-info .patient-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+#patient-info h5 {
+    text-align: center;
+    font-size: 24px;
+}
+#patient-info input[type=text] {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+    height: 49px;
+    padding: 10px 15px;
+    font-size: 16px;
+	margin: 10px 0 5px;
+}
+#patient-info .continue-btn {
+	float: right;
+    display: block;
+    width: 250px;
+	max-width: 100%;
+    text-align: center;
+    background: #e73131;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+	margin-top: 20px;
+}
+#patient-info .continue-btn:hover {
+	text-decoration: none;
+	background: #dd1b1b;
+}
+
+/*========= Rx Type Selection ==========*/
+#rx-type-selection {
+	display: none;
+}
+#rx-type-selection h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 28px;
+	margin-top: 0;
+}
+#rx-type-selection ul {
+    margin: 0 -8px;
+    max-width: 960px;
+    float: none;
+    text-align: center;
+}
+#rx-type-selection li {
+    width: 50%;
+    max-width: 390px;
+    padding: 0 8px;
+    display: inline-block;
+    float: left;
+					   
+}
+#rx-type-selection li .option-wrapper {
+    text-align: center;
+    min-height: 193px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 3px;
+	padding: 12px 22px 35px;
+	position: relative;
+}
+#rx-type-selection li .option-wrapper.selected {
+	border: 2px solid #666;
+}
+#rx-type-selection li .option-wrapper input {
+	display: none;
+}
+#rx-type-selection li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: transparent;
+}
+#rx-type-selection li .option-wrapper h4.rx-type-heading {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#rx-type-selection li .option-wrapper hr {
+    margin: 8px 0 15px;
+    border-top: 1px solid #ddd;
+}
+#rx-type-selection li .option-wrapper figure { 
+	margin-bottom: 18px;
+}
+#rx-type-selection li .option-wrapper img {
+	max-height: 36px;
+}
+#rx-type-selection li .option-wrapper p {
+	font-size: 14px;
+	color: #666666;
+	margin: 0;
+}
+
+/*======= Rx Options Section =========*/
+#rx-type {
+	display: none;
+}	
+.tab-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.tab-pane h2 {
+    font-size: 24px;
+    color: #000;
+    margin: 0;
+    margin-bottom: 26px;
+	font-weight: 400;
+}
+.tab-wrapper {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 20px 30px;
+}
+
+/*======= Add new Prescription ======*/
+.both-same-checkbox {
+    text-align: right;
+}
+.both-same-checkbox label {
+    padding-right: 35px;
+}
+.both-same-checkbox label::before {
+    left: auto;
+    right: 0;
+}
+.both-same-checkbox label::after {
+    left: auto;
+    right: 4px;
+}
+
+#enter_rx .box1 .custom-checkbox {
+    padding-bottom: 0;
+}
+#enter_rx .box1 .custom-checkbox label {
+    font-size: 16px;
+}
+
+ul.rx-values {
+    border-top: 1px solid #ddd;
+	margin-bottom: 47px;
+	margin-top: 20px;
+}
+ul.rx-values li {
+    float: left;
+    width: 50%;
+} 
+ul.rx-values li.disabled {
+    
+}
+ul.rx-values li#variationRow0 {
+    border-right: 1px solid #ddd;
+}
+ul.rx-values li#variationRow1 {
+}
+ul.rx-values li.disabled .box2 {
+	pointer-events: none;
+	opacity: 0.5;
+}
+ul.rx-values li .box2 {
+    float: left;
+    width: calc(100% - 19px);
+    min-height: 63px;
+    padding: 7px 0;
+    display: flex;
+	flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+ul.rx-values li#variationRow0 .box2 {
+    margin-right: 19px;
+}
+ul.rx-values li#variationRow1 .box2 {
+    margin-left: 19px;
+}
+ul.rx-values li .box1 {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    display: block;
+    padding: 11px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 11px;
+}
+.lg-custom-drop, .lg-custom-input {
+    margin: 0;
+	font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    width: 100%;
+	position: relative;
+	min-height: 49px;
+	border: 1px solid #c0c0c0;
+    border-radius: 3px;
+	background: #fff;
+	float: left;
+}
+.lg-custom-drop:focus, .lg-custom-input:focus {
+    border: 1px solid #000 !important;
+}
+.lg-custom-drop.single_val_attr {
+    padding: 0 16px;
+	border: none;
+    border-radius: 0;
+	background: transparent;
+}	
+.lg-custom-drop.single_val_attr:focus {
+    border: none !important;
+}
+.lg-custom-drop .attrib_val {
+	float: right;
+    z-index: 999;
+    position: absolute;
+    left: auto;
+    right: 20px;
+    top: 2px;
+    bottom: 2px;
+    color: #333333;
+    line-height: 45px;
+}
+.lg-custom-drop select {
+    float: left;
+    width: 100%;
+    height: 49px;
+    padding: 10px 15px 6px;
+    color: #000000;
+    opacity: 0;
+    border-radius: 3px;
+    border: none;
+	background: transparent;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+.lg-custom-drop .label-text, .lg-custom-input .label-text {
+    position: absolute;
+    bottom: 2px;
+    top: 50%;
+    left: 0;
+    transform: translate(20px,-50%);
+    color: #999;
+    padding-left: 0;
+    border-radius: 3px;
+    transition: all .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+.lg-custom-drop.slide .label-text, .lg-custom-input.slide .label-text {
+	font-size: 11px;
+    transform: translate(5px,-30px);
+    padding: 0 5px;
+    line-height: 1;
+    height: 12px; 
+    color: #a5a5a5;
+    background: #fff;
+}
+.lg-custom-drop.single_val_attr.slide .label-text {
+	transform: translate(20px,-50%);
+    color: #333333;
+    padding: 0;
+	line-height: 1.4;
+    height: auto; 
+    background: none;
+	font-size: 16px;
+}
+.lg-custom-drop.slide select, .lg-custom-input.slide input {
+	opacity: 1;
+}	
+.lg-custom-drop.single_val_attr select {
+	opacity: 0;
+	display: none !important;
+}
+.lg-custom-drop::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 45px;
+    background: url(../img/drop-arrow.png) no-repeat center #fff;
+    right: 1px;
+    pointer-events: none; 
+}
+.lg-custom-drop.single_val_attr::after {
+	display: none; 
+}
+
+.patient-info-wrapper {
+    padding: 30px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 47px;
+}
+
+.rx-two-col h5 {
+    margin: 0;
+    float: left;
+    width: 22%;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 700;
+    padding-right: 10px;
+	padding-top: 3px;
+}
+.rx-two-col .rx-col-2 {
+    float: left;
+    width: 78%;
+}
+.rx-two-col .rx-col-2 .col-50 {
+    padding: 0 4px;
+    float: left;
+    width: 50%;
+}
+.rx-two-col .rx-col-2 .col-50 .lg-custom-input input {
+    float: left;
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    height: 49px;
+    padding: 5px 17px;
+}
+
+.lg-custom-input input::-webkit-input-placeholder { /* Edge */
+  color: transparent !important;
+}
+.lg-custom-input input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: transparent !important;
+}
+.lg-custom-input input::placeholder {
+  color: transparent !important;
+}
+
+.op-practice-details h3 {
+	font-size: 24px;
+	color: #000000;
+	margin: 0 0 30px;
+	font-weight: 400;
+}
+.op-practice-details .rx-two-col {display: none;} 
+.op-practice-details .tab-pane {
+	display: block !important;
+    padding: 25px 0;
+}
+ 
+.verification-method .error{
+	display: none;
+}
+.verification-method .col-50 a {
+    border: 1px solid #8ba7d7;
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    padding: 17px 28px 17px 20px;
+    font-size: 13px;
+    color: #666666;
+	min-height: 105px;
+}
+.verification-method .col-50 a.selected { 
+	border: 2px solid #416cb3;
+	background: url(../img/checkmark-for-verification.png) no-repeat right 13px top 13px;
+    background-size: 15px;
+}
+.verification-method .col-50 a:hover, 
+.verification-method .col-50 a:focus {
+	text-decoration: none;
+} 
+.verification-method .col-50 input {
+    display: none;
+}
+.verification-method .col-50 a span {
+    font-size: 14px;
+    display: block;
+    font-weight: 700;
+    color: #3f6bb2;
+    padding-bottom: 8px;
+}
+.verification-method hr {
+	border-top: 1px solid #dddddd;
+	margin: 35px 4px 0; 
+	float: left;
+    width: 100%;
+}
+
+/*----- Image Upload -----*/
+.upload_img_wraper {
+    float: left;
+    width: 100%;
+}
+.cl-image-area {
+    width: 419px;
+    height: 122px;
+    max-width: 100%;
+    border: 2px dashed #aec1e3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upload-heading {
+    font-size: 14px;
+    color: #666666;
+    padding-bottom: 5px;
+    float: left;
+}
+.upload_img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	background: url(../img/camera.png) no-repeat center top 20px;
+    background-size: 25px;
+    padding-top: 20px;
+}
+.upload_img_wraper input {
+    width: 415px;
+    height: 118px;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    opacity: 0;
+    cursor: pointer;
+}
+.upload_img_wraper label {
+    font-size: 14px;
+    color: #8ba7d7;
+    font-weight: 400;
+}
+.upload_img_wraper span {
+    font-size: 12px;
+	color: #666;
+}
+.cl-uploaded-image {
+    display: none;
+    width: 419px;
+    min-height: 122px;
+    max-width: 100%;
+    border: 2px dashed #aec1e3;
+    text-align: center;
+	position: relative;
+	padding: 10px; 
+}
+.cl-uploaded-image img {
+    max-height: 222px;
+}
+.cl-uploaded-image .close-upload {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.img-up-success {
+	display: none;
+    padding-left: 50px;
+    padding-top: 21px;
+	background: url(../img/tick.png) no-repeat left top 15px; 
+}
+.img-up-success h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+.img-up-success h3 span {
+    font-size: 14px !important;
+    color: #666666;
+    font-weight: 400;
+    display: block;
+}
+.image-notice {
+    font-size: 12px;
+    color: #e31937 !important;
+    line-height: 1;
+    display: block;
+    text-transform: none;
+    margin: 7px 0;
+    text-align: left;
+}
+.cl-uploaded-image .file-name {
+    display: block; 
+    padding: 5px 0 0;
+}
+
+
+/*----- Doctor Info -----*/
+.doc-info ul {
+    margin: 0 -4px;
+}
+.doc-info ul li {
+    float: left;
+    width: 50%;
+    padding: 0 4px 14px;
+}
+.doc-info ul li.col-full {
+    width: 100%;
+}
+.doc-info ul li input {
+    border: none;
+    box-shadow: none;
+    border-radius: 3px;
+    height: 49px;
+    background: transparent;
+    padding: 5px 15px;
+}
+input[name="dob"] ,input[name="existing_patient_dob"] {
+	background: url(../img/calendar.png) no-repeat right 13px center !important; 
+	background-size: 20px !important;
+}	
+
+/*===== Upoad Prescription Section =====*/
+#upload_rx .upload-wrapper {
+    padding: 10px 0 35px;
+}
+#upload_rx .patient-info-wrapper {
+    padding: 40px 0;
+	border-bottom: none;
+    margin-bottom: 15px;
+}
+
+/*===== Send Later Section ======*/
+.send-later-text {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 55px;
+    padding-top: 45px;
+}
+.send-later-text h3 {
+    margin: 0 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.send-later-text .send-description span { 
+    color: #ff0000;
+}
+.send-description p {
+    color: #666;
+	font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+}	
+.send-later-text .send-description span.ptop {
+    padding-top: 13px;
+    display: inline-block;
+    color: #666 !important;
+}
+.send-description p a {
+	color: #666;
+	text-decoration: underline;
+}
+#send_later .patient-info-wrapper {
+    padding: 48px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: none;
+    margin-bottom: 27px;
+}
+
+/*===== Existing Patient Section =====*/
+#existing_patient .patient-info-wrapper { 
+    border-top: none;
+    padding-top: 15px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+#existing_patient .patient-info-wrapper p {
+    margin-bottom: 35px;
+	font-size: 16px;
+    color: #333;
+}
+#existing_patient .patient-info-wrapper .col-50 {
+    padding: 0 4px;
+    float: left;
+    width: 50%;
+    padding-bottom: 12px;
+}
+#existing_patient .op-practice-location p {
+	margin-bottom: 30px;
+	font-size: 16px;
+    color: #333;
+}
+#existing_patient .op-practice-location.rx-two-col h5 { 
+    padding-top: 15px;
+}
+#existing_patient .op-practice-location {
+    padding-bottom: 55px;
+}
+
+/*===== Footer Buttons =====*/
+.footer-nav {
+    padding: 10px 0;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-nav .back-btn, .footer-nav .close-btn {
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    color: #333333;
+    padding-left: 27px;
+    background: url(../img/back.png) no-repeat left center; 
+}
+.footer-nav button.single_add_to_cart_button_lenses {
+    float: right !important;
+    width: 428px;
+    max-width: 60%;
+    height: 49px;
+    border-radius: 3px !important;
+    border: none !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+	margin-left: auto;
+}
+
+
+/*========== Responsive ===========*/
+@media(max-width: 980px) {
+	.custom-checkbox label {
+		padding-left: 30px;
+		font-size: 14px;
+	}
+	.custom-checkbox label::before {
+		width: 20px;
+		height: 20px;
+	}
+	.custom-checkbox label::after {
+		left: 2px;
+		background-size: 10px !important;
+	}
+	
+	.lg-custom-drop, .lg-custom-input {
+		font-size: 14px;
+		min-height: 45px;
+	}
+	.lg-custom-drop select {
+		height: 45px;
+		padding: 10px 10px 6px;	
+	}
+	.lg-custom-drop .label-text, .lg-custom-input .label-text {
+		transform: translate(15px,-50%);
+	}
+	.lg-custom-drop.slide .label-text, .lg-custom-input.slide .label-text {
+		transform: translate(5px,-28px);
+	}
+	.lg-custom-drop::after {
+		height: 40px;
+	}
+	.lg-custom-drop.single_val_attr {
+		padding: 0;
+	}
+	.lg-custom-drop.single_val_attr.slide .label-text {
+		transform: translate(0,-50%);
+		font-size: 14px;
+	}
+	.lg-custom-drop .attrib_val {
+		right: 0;
+		line-height: 40px;
+	}
+		
+	/*----- Eye selection stepper -----*/
+	#eye-selection ul {
+		margin: 0 -5px;
+	}
+	#eye-selection li {
+		padding: 0 5px;
+	}
+	.stepper button {
+		width: 36px;
+		height: 40px;
+		background-size: 12px;
+	}
+	.stepper button.increase {
+		background-size: 12px;
+	}
+	.stepper .q-value {
+		line-height: 40px;
+		height: 40px;
+		font-size: 14px;
+	}
+	
+	/*----- RX Content -----*/
+	#cl-steps-wrapper {
+		padding: 20px 15px;
+	}
+	#cl-options-wrapper {
+		max-width: 100%;
+	}
+	#product-sidebar {
+		max-width: 100%;
+		padding-left: 0;
+		padding-top: 10px;
+	}
+	
+	#rx-type-selection h2 {
+		text-align: center;
+	}
+	#rx-type-selection ul {
+		margin: 0 auto;
+		max-width: 390px;
+	}
+	#rx-type-selection li {
+		width: 390px;
+		max-width: 100%;
+		padding: 0;
+	}
+	
+	.tab-wrapper {
+		padding: 20px 15px;
+	}
+	.tab-pane h2 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	/*----- Two column -----*/
+	.rx-two-col h5 {
+		padding-right: 0;
+		padding-top: 0;
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	.rx-two-col h5 br {
+		display: none;
+	}
+	.rx-two-col .rx-col-2 {
+		width: auto;
+		margin: 0 -4px;
+		float: none;
+	}
+	.rx-two-col .rx-col-2 .col-50 .lg-custom-input input {
+		height: 45px;
+		padding: 5px 15px;
+	}
+	
+	/*----- Existing Patient -----*/
+	#existing_patient .patient-info-wrapper {
+		padding-top: 0;    
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	#existing_patient .patient-info-wrapper p {
+		margin-bottom: 25px;
+	}	
+	#existing_patient .op-practice-location {
+		padding-bottom: 10px;
+	}
+	#existing_patient .op-practice-location p {
+		margin-bottom: 10px;
+	}
+	#existing_patient .op-practice-location .rx-col-2 .col-50 {
+		width: 100%;
+		max-width: 480px;
+	}
+	
+	/*----- Upload Prescription -----*/
+	#upload_rx .upload-wrapper {
+		padding: 0 0 35px;
+	}
+	.rx-two-col .upload-presc-wrap.rx-col-2 {
+		margin: 0;
+	}
+	#upload_rx .patient-info-wrapper {
+		padding: 30px 0 0;
+	}
+	
+	/*----- Send Later -----*/
+	.send-later-text {
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	#send_later .patient-info-wrapper {
+		padding: 30px 0 0;
+		margin-bottom: 10px;
+	}
+	
+	/*----- Enter New Prescription -----*/
+	#enter_rx .box1 .custom-checkbox label {
+		font-size: 14px;
+	}
+	ul.rx-values {
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}	
+	ul.rx-values li .box2 {
+		width: calc(100% - 10px);
+		min-height: 59px;
+	}
+	ul.rx-values li#variationRow0 .box2 {
+		margin-right: 10px;
+	}	
+	ul.rx-values li#variationRow1 .box2 {
+		margin-left: 10px;
+	}
+	.patient-info-wrapper {
+		margin-bottom: 25px;
+	}
+	.op-practice-details h3 {
+		font-size: 20px;
+	}
+	
+	.verification-method .col-50 a {
+		padding: 10px 15px 10px 12px;
+	}
+	.verification-method .col-50 a.selected {
+		background: url(../img/checkmark-for-verification.png) no-repeat right 8px top 8px;
+		background-size: 12px;
+	}
+	.op-practice-details .tab-pane {
+		padding: 25px 0 0;
+	}
+}
+
+@media(max-width: 480px) {	
+	#existing_patient .patient-info-wrapper .col-50:last-child {
+		width: 100%;
+	}
+	.doc-info ul li {
+		width: 100%;
+	}
+}
+@media (max-width: 340px) {
+	.custom-checkbox label {
+		padding-left: 30px;
+		font-size: 13px;
+	}
+}	
+
+
+
